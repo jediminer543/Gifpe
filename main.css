@@ -37,7 +37,11 @@ hr {
   float: left; }
 
 .unlink, .unlink:visited, .unlink:active, .unlink:hover, .unlink:link {
-  color: #293D3D; }
+  color: #293D3D;
+  text-decoration: none; }
+
+.underline {
+  text-decoration: underline; }
 
 .nav {
   list-style-type: none;
@@ -57,9 +61,21 @@ hr {
     border-left: 2px #5C8A8A;
     border-right: 2px #5C8A8A;
     border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px; }
+    border-bottom-right-radius: 3px;
+    color: #293D3D;
+    text-decoration: none; }
   .nav a:hover, .nav a:active {
     text-decoration: underline;
     color: #293D3D; }
+
+#footer {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  background-color: #85ADAD; }
 
 /*# sourceMappingURL=main.css.map */

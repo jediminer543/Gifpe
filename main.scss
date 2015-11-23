@@ -24,6 +24,7 @@ hr {
   padding-top: -5px;
 }
 
+//General
 .rule {
   border-bottom: 2px solid $accent-colour;
 }
@@ -55,8 +56,14 @@ hr {
 
 .unlink, .unlink:visited, .unlink:active, .unlink:hover, .unlink:link {
   color: $text-colour;
+  text-decoration: none;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+//Header
 .nav {
   list-style-type: none;
   margin: 0;
@@ -80,10 +87,26 @@ hr {
     border-right: 2px $accent-colour;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+
+    color: $text-colour;
+    text-decoration: none;
   }
 
-  a:hover, a:act {
+  a:hover, a:active {
     text-decoration: underline;
     color: $text-colour;
   }
+}
+
+//Footer
+#footer {
+  //width:100%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position:absolute;
+  bottom:0;
+  background-color: $secondry-bg;
 }

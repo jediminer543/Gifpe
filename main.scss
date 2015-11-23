@@ -1,0 +1,89 @@
+$main-bg: #F0F5F5;
+$secondry-bg: #85ADAD;
+$tertiary-bg: #94B8B8;
+$accent-colour: #5C8A8A;
+$highlight: #B2CCCC;
+$text-colour: #293D3D;
+
+body {
+  font-family: "Arial";
+  background-color: $main-bg;
+  color: $text-colour;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+hr {
+  padding-top: -5px;
+}
+
+.rule {
+  border-bottom: 2px solid $accent-colour;
+}
+
+.inline {
+  display: inline;
+}
+
+.hidden-button {
+  background-color: $tertiary-bg;
+  text-decoration: none;
+  color: $text-colour;
+}
+
+.large-icon {
+  font-size: 30px;
+  font-weight: 700;
+  width: 30px;
+  padding-right: 10px;
+}
+
+.align-right {
+  float:right;
+}
+
+.align-left {
+  float:left;
+}
+
+.unlink, .unlink:visited, .unlink:active, .unlink:hover, .unlink:link {
+  color: $text-colour;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    padding-left: 5px;
+  }
+  a, a:link, a:visited {
+    display: block;
+
+    background-color: $tertiary-bg;
+
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    border-bottom: 2px $accent-colour;
+    border-left: 2px $accent-colour;
+    border-right: 2px $accent-colour;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  a:hover, a:act {
+    text-decoration: underline;
+    color: $text-colour;
+  }
+}

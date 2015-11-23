@@ -1,0 +1,65 @@
+body {
+  font-family: "Arial";
+  background-color: #F0F5F5;
+  color: #293D3D; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+h1 {
+  font-weight: 700; }
+
+hr {
+  padding-top: -5px; }
+
+.rule {
+  border-bottom: 2px solid #5C8A8A; }
+
+.inline {
+  display: inline; }
+
+.hidden-button {
+  background-color: #94B8B8;
+  text-decoration: none;
+  color: #293D3D; }
+
+.large-icon {
+  font-size: 30px;
+  font-weight: 700;
+  width: 30px;
+  padding-right: 10px; }
+
+.align-right {
+  float: right; }
+
+.align-left {
+  float: left; }
+
+.unlink, .unlink:visited, .unlink:active, .unlink:hover, .unlink:link {
+  color: #293D3D; }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .nav li {
+    float: left;
+    padding-left: 5px; }
+  .nav a, .nav a:link, .nav a:visited {
+    display: block;
+    background-color: #94B8B8;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-bottom: 2px #5C8A8A;
+    border-left: 2px #5C8A8A;
+    border-right: 2px #5C8A8A;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .nav a:hover, .nav a:active {
+    text-decoration: underline;
+    color: #293D3D; }
+
+/*# sourceMappingURL=main.css.map */

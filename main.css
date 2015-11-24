@@ -36,12 +36,21 @@ hr {
 .align-left {
   float: left; }
 
-.unlink, .unlink:visited, .unlink:active, .unlink:hover, .unlink:link {
+.unlink {
   color: #293D3D;
   text-decoration: none; }
+  .unlink :visited, .unlink :active, .unlink :hover, .unlink :link {
+    color: #293D3D;
+    text-decoration: none; }
 
 .underline {
   text-decoration: underline; }
+
+.inline {
+  display: inline; }
+
+#header {
+  padding-bottom: 35px; }
 
 .nav {
   list-style-type: none;
@@ -77,5 +86,16 @@ hr {
   position: absolute;
   bottom: 0;
   background-color: #85ADAD; }
+
+#content {
+  width: 100%; }
+
+.content-left {
+  width: 47.5%;
+  float: left; }
+
+.content-right {
+  width: 47.5%;
+  float: right; }
 
 /*# sourceMappingURL=main.css.map */

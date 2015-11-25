@@ -78,13 +78,15 @@ hr {
     color: #293D3D; }
 
 #footer {
+  width: 96%;
   padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  left: 3;
   background-color: #85ADAD; }
 
 #content {
